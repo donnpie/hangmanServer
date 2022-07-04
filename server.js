@@ -1,3 +1,5 @@
+//Hangman server.js
+
 //Set up environment variables:
 //1. Create .env file with environment variables
 //2. Install dotenv dependency (npm i dotenv)
@@ -5,7 +7,7 @@
 //4. const port = process.env.PORT etc
 
 require('dotenv').config();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 const app_id = process.env.APP_ID;
 const app_key = process.env.APP_KEY;
 console.log(port);
